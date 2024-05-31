@@ -1,5 +1,5 @@
 {% set name = "sphinxawesome-theme" %}
-{% set version = "5.1.5" %}
+{% set version = "5.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinxawesome_theme-{{ version }}.tar.gz
-  sha256: e73ffe1bda9b24df299462f94cf3207e0be7b030e572be74f1ee29f73475636c
+  sha256: c24f1e5c0b9e475380d16fc5f1f3bfd84955817da0905d95f7e20809d7cd3c5d
 
 build:
   noarch: python
